@@ -4,3 +4,5 @@ import seaborn as sns
 df = sns.load_dataset("penguins")
 sns.jointplot(data=df, x="flipper_length_mm", y="bill_length_mm", hue="species")
 plt.show()
+
+#Visuals don't work on virtual Ubuntu env UNLESS run in Jupyter notebook
